@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_blue_light"
+    tools:context=".MainActivity">
+
+   <EditText
+       android:id="@+id/edtValorOculto"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:background="@drawable/botaocustomizado2"
+       android:enabled="false"
+       android:text="?"
+       android:textAlignment="center"
+       android:textColor="@android:color/white"
+       android:textSize="30sp"
+       app:layout_constraintBottom_toTopOf="@+id/edtValor"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.5"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+
+   <EditText
+       android:id="@+id/edtValor"
+       android:layout_width="match_parent"
+       android:layout_height="50dp"
+       android:background="@drawable/botaocustomizado3"
+       android:hint="Digite o valor!"
+       android:inputType="number"
+       android:textAlignment="center"
+       android:textColor="@android:color/white"
+       android:textColorHint="@android:color/white"
+       app:layout_constraintBottom_toTopOf="@+id/btnEnviar"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.0"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/edtValorOculto" />
+
+   <Button
+       android:id="@+id/btnEnviar"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@drawable/botaocustomizado"
+       android:text="Enviar"
+       android:onClick="clickBtnEnviar"
+       android:textAllCaps="false"
+       android:textColor="@android:color/white"
+       app:layout_constraintBottom_toTopOf="@+id/btnNovo"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.0"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/edtValor"
+    />
+
+   <Button
+       android:id="@+id/btnNovo"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@drawable/botaocustomizado"
+       android:text="Novo"
+       android:onClick="clickBtnNovo"
+       android:textAllCaps="false"
+       android:textColor="@android:color/white"
+       app:layout_constraintBottom_toTopOf="@+id/texandroidtDica"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.5"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/btnEnviar"
+    />
+
+
+
+   <TextView
+       android:id="@+id/texandroidtDica"
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:text="Valor de 1 a 10"
+       android:textAlignment="center"
+       android:textSize="18dp"
+
+
+       app:layout_constraintBottom_toBottomOf="parent"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.5"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/btnNovo" />
+
+   <ImageView
+       android:id="@+id/imageView"
+       android:layout_width="257dp"
+       android:layout_height="196dp"
+       app:layout_constraintBottom_toTopOf="@+id/edtValorOculto"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toBottomOf="@+id/textView"
+       app:srcCompat="@drawable/planodefundo" />
+
+   <TextView
+       android:id="@+id/textView"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Jogo Descubra Número"
+       android:textSize="24sp"
+       app:layout_constraintBottom_toTopOf="@+id/imageView"
+       app:layout_constraintEnd_toEndOf="parent"
+       app:layout_constraintHorizontal_bias="0.5"
+       app:layout_constraintStart_toStartOf="parent"
+       app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
