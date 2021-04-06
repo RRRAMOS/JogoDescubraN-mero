@@ -3,7 +3,7 @@
 Pequeno jogo de adivinhação de número oculto.  
 Sistema indica se é o número digitado é o número oculto ou dará dicas para novas tentativas de adivinhação.
 
-<p align="center">  <img src="./telainicial.png"></p
+<p align="center">  <img src="telainicial.png"></p
 
 
 ### Linguagem
