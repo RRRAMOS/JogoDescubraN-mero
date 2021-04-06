@@ -6,7 +6,7 @@ Sistema indica se é o número digitado é o número oculto ou dará dicas para 
 <p align="center">  <img src="./telainicial.png"></p
 
 
-### Tecnologias
+### Linguagem
 
 JAVA
 
