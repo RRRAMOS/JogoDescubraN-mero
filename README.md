@@ -1,7 +1,7 @@
 # Jogo Descubra Número
 
 Pequeno jogo de adivinhação de número oculto.  
-Sistema indica se o número digitado é o número oculto ou dará dicas para novas tentativas de adivinhação.
+Sistema indicará se o número digitado é o número oculto ou dará dicas para novas tentativas de adivinhação.
 
 
 
