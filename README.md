@@ -1,7 +1,7 @@
 # Jogo Descubra Número
 
-Pequeno jogo de adivinhação de número oculto.  
-Sistema indicará se o número digitado é o número oculto ou dará dicas para novas tentativas de adivinhação.
+Jogo de adivinhação de número oculto, em que o usuário digita um número aleatório dentro de um limite minimo e máximo;
+a seguir sistema indicará se o número digitado é o número oculto ou dará dicas para novas tentativas de adivinhação.
 
 
 
